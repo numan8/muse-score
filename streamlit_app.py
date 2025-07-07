@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load trained model
-model = joblib.load("/content/muse_score_model.pkl")
+model = joblib.load("muse_score_model.pkl")
 
 st.set_page_config(page_title="Muse Score Predictor", layout="centered")
 st.title("🎯 Muse Score Predictor")
