@@ -8,7 +8,7 @@ from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.compose import ColumnTransformer
 
 # Load dataset from local file
-df = pd.read_csv("simulated_muse_score_dataset.csv")
+df = pd.read_csv("muse_score_dataset.csv")
 
 # Feature engineering
 df['Refund_Ratio'] = df['Refund'] / df['AGI']
